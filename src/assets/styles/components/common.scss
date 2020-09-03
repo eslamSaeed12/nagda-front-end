@@ -1,0 +1,192 @@
+// headings 
+$headings:h1,
+h2,
+h3,
+h4,
+h5,
+h6;
+
+nav {
+    z-index: 9999;
+}
+
+.text-nav-link {
+    color: $m-black;
+
+    @media(max-width:991px) {
+        color: #ffff;
+    }
+}
+
+@each $h in $headings {
+    #{$h} {
+        font-family: $typography-heading;
+    }
+}
+
+
+// texts 
+$text-variants:("primary":$primary,
+    "secondary":$secondary,
+    "warning":$warning,
+    "success":$success,
+    "danger":$danger,
+    "black":$black,
+    "m-black":$m-black,
+    "white":$white);
+
+
+
+// borders
+
+@each $k,
+$v in $text-variants {
+    .border-color-#{$k} {
+        border-color: $v;
+    }
+}
+
+// texts
+@each $k,
+$v in $text-variants {
+    .text-#{$k} {
+        color: $v !important;
+    }
+}
+
+// background
+@each $k,
+$v in $text-variants {
+    .bgc-#{$k} {
+        background-color: $v;
+    }
+}
+
+
+// font
+.font-body {
+    font-family: $typography-body !important;
+}
+
+
+a {
+    color: unset;
+    transition: opacity 0.1s ease;
+
+    &:hover {
+        color: unset;
+        opacity: 0.8;
+        text-decoration: none;
+    }
+}
+
+@each $k,
+$v in $text-variants {
+    .a-hvr-#{$k} {
+        &:hover {
+            color: $v !important;
+
+        }
+    }
+}
+
+.a-hvr-primary {
+    transition: color 0.1s ease;
+
+    &:hover {
+        color: $primary !important;
+
+    }
+}
+
+
+// active 
+@each $k,
+$v in $text-variants {
+    .active-#{$k} {
+        background-color: $v;
+
+        * {
+            color: $white !important
+        }
+
+        border-radius: 29px;
+
+        a:hover {
+            opacity: 1 !important;
+
+        }
+    }
+}
+
+// buttons  contianed
+
+@each $k,
+$v in $text-variants {
+    .btn-#{$k} {
+        background-color: $v !important;
+        border-color: $v !important;
+
+        &:focus {
+            box-shadow: 0 0 0 0.2rem rgba($color: $v, $alpha: 0.25%) !important;
+        }
+    }
+}
+
+
+@each $k,
+$v in $text-variants {
+    .btn-outlined-#{$k} {
+        border-color: $v !important;
+        border: 2px solid $v;
+        background-color: #ffff;
+
+        &:hover {
+            background-color: $v;
+            color: #fff !important
+        }
+
+        &:focus {
+            box-shadow: 0 0 0 0.2rem rgba($color: $v, $alpha: 0.25%) !important;
+        }
+    }
+}
+
+@each $k,
+$v in $text-variants {
+    .badge-#{$k} {
+        background-color: $v;
+    }
+}
+
+// alerts
+.alert {
+    color: #f8f8f8
+}
+
+@each $k,
+$v in $text-variants {
+    .alert-#{$k} {
+        background-color: rgba($v, .55);
+    }
+}
+
+.form-control {
+    border-radius: 12px;
+
+    &:focus {
+        border-color: $primary;
+        box-shadow: 0 0 0 0.2rem rgba($primary, .25)
+    }
+}
+
+select.form-control {
+    padding: 0rem .75rem;
+    height: calc(1.5em + .75rem + 3px);
+}
+
+.toast-header {
+    strong {
+        margin: 0 0 0 0 !important;
+    }
+}

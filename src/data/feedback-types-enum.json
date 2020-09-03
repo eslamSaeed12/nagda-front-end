@@ -1,0 +1,18 @@
+[
+  {
+    "value": "suggestion",
+    "name": "اقتراح"
+  },
+  {
+    "value": "message",
+    "name": "رساله"
+  },
+  {
+    "value": "error",
+    "name": "عطل"
+  },
+  {
+    "value": "feedback",
+    "name": "انطباع"
+  }
+]

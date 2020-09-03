@@ -1,0 +1,21 @@
+@import "./constants.scss";
+@import "./core/fonts.scss";
+@import "./components/common.scss";
+
+:root {
+    --primary: #EB095E;
+    --secondary: #1C4A5B;
+    --warning: #D18B05;
+    --success: #2ed573;
+    --danger: #ff4757;
+    --dark: #272626;
+    --gray: #707070;
+}
+
+
+body {
+    font-family: $typography-body;
+    color: $m-black;
+    direction: rtl;
+    background-color: $body;
+}

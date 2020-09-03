@@ -1,0 +1,103 @@
+[
+  {
+    "fullname": "اسلام سعيد",
+    "age": 22,
+    "jobTitle": "Software developer",
+    "role": "انشاء موقع وتطبيق نجده",
+    "img": "https://scontent-hbe1-1.xx.fbcdn.net/v/t1.0-9/s960x960/116429357_686561658591350_626156368332394238_o.jpg?_nc_cat=109&_nc_sid=85a577&_nc_ohc=JY7FWfvOP5wAX9s10Rw&_nc_ht=scontent-hbe1-1.xx&_nc_tp=7&oh=5ba0e0d861f8428cc8f53a67d2de430a&oe=5F52B3B3",
+    "social": [
+      {
+        "icon": "github",
+        "link": "https://github.com/eslamSaeed12"
+      },
+      {
+        "icon": "email",
+        "link": "islam.s.mhmd1998@gmail.com"
+      },
+      {
+        "icon": "facebook",
+        "link": "https://www.facebook.com/islamsaeed1998"
+      }
+    ]
+  },
+  {
+    "fullname": "محمد برعي",
+    "age": 22,
+    "jobTitle": "Graphic Designer",
+    "role": "تصميم موقع وتطبيق نجده",
+    "img": "https://scontent-hbe1-1.xx.fbcdn.net/v/t1.15752-9/s1080x2048/83888330_198453671307311_951588354191785984_n.jpg?_nc_cat=103&_nc_sid=b96e70&_nc_ohc=EWHEOshSyAcAX_yGWJA&_nc_ht=scontent-hbe1-1.xx&_nc_tp=7&oh=021036ad34ecbc49d4b8441320b13249&oe=5F5361E0",
+    "social": [
+      {
+        "icon": "behance",
+        "link": "https://www.behance.net/MohamedAhmed30"
+      },
+      {
+        "icon": "email",
+        "link": ""
+      },
+      {
+        "icon": "facebook",
+        "link": "https://www.facebook.com/profile.php?id=100013080156176"
+      }
+    ]
+  },
+  {
+    "fullname": "نيره محمود",
+    "age": 21,
+    "jobTitle": "GIS Developer",
+    "role": "جمع بيانات",
+    "img": "https://drive.google.com/uc?export=download&id=1vJ7dnMvBdM6oPZJCIHXLaoNRscU-kMYN",
+    "social": [
+      {
+        "icon": "email",
+        "link": "Nayramahmoud1999@gmail.com"
+      },
+      {
+        "icon": "facebook",
+        "link": "https://www.facebook.com/nayra.mgabr"
+      }
+    ]
+  },
+  {
+    "fullname": "ايمان ايمن",
+    "age": 21,
+    "jobTitle": "Ui Designer",
+    "role": "تصميم تجربه المستخدم",
+    "img": "https://drive.google.com/uc?export=download&id=1vjrWai7PjeA00MeJhNDodonsR3e_H2lQ",
+    "social": [
+      {
+        "icon": "behance",
+        "link": "http://WWW.behance.net/emanayman98"
+      },
+      {
+        "icon": "email",
+        "link": "emanayman614.ea@gmail.com"
+      },
+      {
+        "icon": "facebook",
+        "link": "https://www.facebook.com/eman.ayman.5245961"
+      }
+    ]
+  },
+  {
+    "fullname": "حامد عماد",
+    "age": 22,
+    "jobTitle": "React Developer",
+    "role": "جمع البيانات",
+    "img": "https://scontent-hbe1-1.xx.fbcdn.net/v/t1.15752-9/116844263_619927908947586_644732644441913562_n.jpg?_nc_cat=101&_nc_sid=b96e70&_nc_ohc=LhqpvUiFSpcAX8UUDR0&_nc_ht=scontent-hbe1-1.xx&oh=a27b3750d6b661e1c918d550402979b8&oe=5F5414A7",
+    "social": [
+      {
+        "icon": "github",
+        "link": "https://github.com/hamedemadeldine"
+      },
+      {
+        "icon": "email",
+        "link": "hamadaemadeldine@gmail.com"
+      },
+      {
+        "icon": "facebook",
+        "link": "https://www.facebook.com/hamed.emad.986"
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+$fonts : "HelveticaNeueLT","HelveticaNeueLTB";
+$fonts-dir:"../../fonts/";
+$font-ext:'woff';
+
+@each $f in $fonts {
+    @font-face {
+        font-family: $f;
+        src: url($fonts-dir + $f + '.' + $font-ext) format($font-ext);
+    }
+}
