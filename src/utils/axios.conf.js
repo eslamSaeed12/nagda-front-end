@@ -1,7 +1,6 @@
-import axios from "axios"
-import DomUtils from "./csrf-to-dom"
-
+import axios from "axios";
+import jsCookie from "js-cookie";
 if (process.env.NODE_ENV !== "development") {
-  axios.defaults.headers["CSRF-Token"] = DomUtils.token
-  axios.defaults.common.headers["CSRF-Token"] = DomUtils.token
+  axios.defaults.headers["CSRF-Token"] = jsCookie.get("XSRF-TOKEN");
+  axios.defaults.common.headers["CSRF-Token"] = jsCookie.get("XSRF-TOKEN");
 }

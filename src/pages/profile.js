@@ -2,7 +2,6 @@ import React from "react";
 import { connect } from "react-redux";
 import { Layout } from "../Layouts/app-layout";
 import { HookAuthWrapper } from "../wrappers/Auth-wrapper";
-import { config } from "../utils/constants.json";
 import { ProfileContent } from "../containers/profile/container";
 
 const ProfilePage = (props) => {
@@ -11,8 +10,8 @@ const ProfilePage = (props) => {
       <ProfileContent
         usage={{
           max: {
-            web: config.env.REACT_APP_MAX_WEB_USAGE,
-            mob: config.env.REACT_APP_MAX_MOB_USAGE,
+            web: process.env.REACT_APP_MAX_WEB_USAGE,
+            mob: process.env.REACT_APP_MAX_MOB_USAGE,
           },
         }}
         {...props}

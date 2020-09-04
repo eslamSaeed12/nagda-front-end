@@ -6,7 +6,6 @@ import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { Button } from "reactstrap";
 import clsx from "clsx";
 import StrictErrorWrapper from "../containers/common/Strict-Error-Wrapper";
-import CsrfWrapper from "../wrappers/Csrf-wrapper";
 import LogoImg from "../assets/images/logo.png";
 
 const ToTopScroller = (props) => {
@@ -84,15 +83,7 @@ const LayoutComponent = (props) => {
 };
 
 export const Layout = (props) => {
-  if (process.env.NODE_ENV === "development") {
-    return <LayoutComponent {...props}>{props.children}</LayoutComponent>;
-  }
-
-  return (
-    <CsrfWrapper>
-      <LayoutComponent {...props}>{props.children}</LayoutComponent>
-    </CsrfWrapper>
-  );
+  return <LayoutComponent {...props}>{props.children}</LayoutComponent>;
 };
 
 export default Layout;
