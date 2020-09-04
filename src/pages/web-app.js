@@ -161,7 +161,7 @@ const MapComponent = (props) => {
       preventStyleDiffing={true}
       mapStyle="mapbox://styles/mapbox/light-v9"
       onViewportChange={props.onViewportChange}
-      mapboxApiAccessToken={process.env.MAPBOX_KEY}
+      mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_KEY}
     >
       <DeckGl
         viewState={props.viewport}
